@@ -26,13 +26,13 @@ function Navbar(){
               <a href='/home' className={`${styles.navLink}`}>Home</a>
             </li>
             <li onClick={removeActive}>
-              <a href='/c' className={`${styles.navLink}`}>Catalog</a>
+              <a href='/listings' className={`${styles.navLink}`}>Listings</a>
             </li>
             <li onClick={removeActive}>
-              <a href='/k' className={`${styles.navLink}`}>All products</a>
+              <a href='/about' className={`${styles.navLink}`}>About us</a>
             </li>
             <li onClick={removeActive}>
-              <a href='/p' className={`${styles.navLink}`}>Contact</a>
+              <a href='/contact' className={`${styles.navLink}`}>Contact</a>
             </li>
           </ul>
           <div className={`${styles.hamburger} ${isActive ? styles.active : ''}`}  onClick={toggleActiveClass}>
