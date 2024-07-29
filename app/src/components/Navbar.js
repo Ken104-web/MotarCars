@@ -22,7 +22,7 @@ function Navbar(){
           {/* logo */}
           <a href='/' className={`${styles.logo}`}> Motar cars </a>
           <ul className={`${styles.navMenu} ${isActive ? styles.active : ''}`}>
-            <li onClick={removeActive}>
+          <li onClick={removeActive}>
               <a href='/home' className={`${styles.navLink}`}>Home</a>
             </li>
             <li onClick={removeActive}>
